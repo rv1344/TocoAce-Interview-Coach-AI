@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  TocoAce – Interview Coach AI (Kazakh)
+  
+  Created by Rad on 06/11/2025.
+*/
+
+// Main View
+"app_title" = "TocoAce";
+"interviews_left" = "қалды";
+"settings" = "Баптаулар";
+"configure_warning" = "Бастамас бұрын баптауларды орнатыңыз";
+"open_settings" = "Баптауларды ашу";
+
+// Recording
+"start_recording" = "Жазуды бастау";
+"stop_recording" = "Жазуды тоқтату";
+"recording" = "Жазу";
+"live_transcription" = "Тікелей транскрипция";
+"transcription_placeholder" = "Транскрипцияны көру үшін жазуды бастаңыз...";
+
+// Answer Generation
+"generate_answer" = "Жауап жасау";
+"generated_answer" = "Жасалған жауап";
+"answer_placeholder" = "Нәтижені алу үшін 'Жауап жасау' түймесін басыңыз...";
+"generating" = "Жауап жасалуда...";
+"copy" = "Көшіру";
+"regenerate" = "Қайта жасау";
+"answer_copied" = "Жауап алмасу буферіне көшірілді!";
+
+// Settings View
+"ai_engine" = "AI Қозғалтқышы";
+"select_engine" = "Қозғалтқышты таңдау";
+"anthropic_api_key" = "Anthropic API кілті";
+"openai_api_key" = "OpenAI API кілті";
+"answer_length" = "Жауап ұзындығы";
+"short" = "Қысқа";
+"medium" = "Орташа";
+"long" = "Ұзын";
+
+// Job Details
+"job_details" = "Жұмыс туралы мәліметтер";
+"position_level" = "Позиция деңгейі";
+"junior" = "Junior";
+"middle" = "Middle";
+"senior" = "Senior";
+"position_title" = "Позиция атауы";
+"position_title_placeholder" = "мысалы, Senior iOS әзірлеуші";
+"company_name" = "Компания атауы";
+"company_placeholder" = "мысалы, Apple Inc.";
+"job_description" = "Жұмыс сипаттамасы";
+
+// Resume
+"resume" = "Резюме";
+"upload_resume" = "Резюме жүктеу";
+"replace_resume" = "Резюмені ауыстыру";
+"characters" = "таңба";
+"resume_uploaded" = "Резюме сәтті жүктелді!";
+"parse_error" = "Құжатты өңдеу мүмкін болмады. Басқа файлды көріңіз.";
+
+// Subscription
+"upgrade_plan" = "Жоспарды жаңарту";
+"upgrade_subtitle" = "Көбірек сұхбат алып, мансаптық мақсаттарыңызға жетіңіз";
+"current_plan" = "Ағымдағы жоспар";
+"interviews_remaining" = "Сұхбаттар қалды";
+"purchase" = "Сатып алу";
+"restore_purchases" = "Сатып алуларды қалпына келтіру";
+"purchases_restored" = "Сатып алулар қалпына келтірілді!";
+"purchase_success" = "Сатып алу сәтті! Рақмет!";
+"close" = "Жабу";
+"loading_products" = "Өнімдер жүктелуде...";
+
+// Errors
+"no_interviews" = "Сұхбаттарыңыз қалмады. Жоспарыңызды жаңартыңыз.";
+"permission_required" = "Жүйелік баптауларда микрофон мен сөйлеуді тану рұқсаттарын беріңіз.";
+"api_key_not_configured" = "API кілті орнатылмаған";
+"generation_failed" = "Жауап жасау мүмкін болмады";
+
+// General
+"done" = "Дайын";
+"ok" = "OK";
+"cancel" = "Болдырмау";
+"success" = "Сәтті";
+"error" = "Қате";
+
+

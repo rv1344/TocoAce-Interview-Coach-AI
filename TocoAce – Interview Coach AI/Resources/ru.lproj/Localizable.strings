@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  TocoAce – Interview Coach AI (Russian)
+  
+  Created by Rad on 06/11/2025.
+*/
+
+// Main View
+"app_title" = "TocoAce";
+"interviews_left" = "осталось";
+"settings" = "Настройки";
+"configure_warning" = "Пожалуйста, настройте приложение перед началом";
+"open_settings" = "Открыть настройки";
+
+// Recording
+"start_recording" = "Начать запись";
+"stop_recording" = "Остановить запись";
+"recording" = "Запись";
+"live_transcription" = "Транскрипция в реальном времени";
+"transcription_placeholder" = "Начните запись для отображения транскрипции...";
+
+// Answer Generation
+"generate_answer" = "Создать ответ";
+"generated_answer" = "Сгенерированный ответ";
+"answer_placeholder" = "Нажмите 'Создать ответ' для получения результата...";
+"generating" = "Генерация ответа...";
+"copy" = "Копировать";
+"regenerate" = "Пересоздать";
+"answer_copied" = "Ответ скопирован в буфер обмена!";
+
+// Settings View
+"ai_engine" = "AI Движок";
+"select_engine" = "Выберите движок";
+"anthropic_api_key" = "Anthropic API ключ";
+"openai_api_key" = "OpenAI API ключ";
+"answer_length" = "Длина ответа";
+"short" = "Короткий";
+"medium" = "Средний";
+"long" = "Длинный";
+
+// Job Details
+"job_details" = "Детали вакансии";
+"position_level" = "Уровень позиции";
+"junior" = "Junior";
+"middle" = "Middle";
+"senior" = "Senior";
+"position_title" = "Название позиции";
+"position_title_placeholder" = "напр., Senior iOS разработчик";
+"company_name" = "Название компании";
+"company_placeholder" = "напр., Apple Inc.";
+"job_description" = "Описание вакансии";
+
+// Resume
+"resume" = "Резюме";
+"upload_resume" = "Загрузить резюме";
+"replace_resume" = "Заменить резюме";
+"characters" = "символов";
+"resume_uploaded" = "Резюме успешно загружено!";
+"parse_error" = "Не удалось обработать документ. Попробуйте другой файл.";
+
+// Subscription
+"upgrade_plan" = "Улучшить план";
+"upgrade_subtitle" = "Получите больше собеседований и добейтесь карьерных целей";
+"current_plan" = "Текущий план";
+"interviews_remaining" = "Собеседований осталось";
+"purchase" = "Купить";
+"restore_purchases" = "Восстановить покупки";
+"purchases_restored" = "Покупки восстановлены!";
+"purchase_success" = "Покупка успешна! Спасибо!";
+"close" = "Закрыть";
+"loading_products" = "Загрузка продуктов...";
+
+// Errors
+"no_interviews" = "У вас не осталось собеседований. Пожалуйста, улучшите план.";
+"permission_required" = "Пожалуйста, предоставьте доступ к микрофону и распознаванию речи в Системных настройках.";
+"api_key_not_configured" = "API ключ не настроен";
+"generation_failed" = "Не удалось создать ответ";
+
+// General
+"done" = "Готово";
+"ok" = "OK";
+"cancel" = "Отмена";
+"success" = "Успешно";
+"error" = "Ошибка";
+
+

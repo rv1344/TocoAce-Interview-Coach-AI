@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  TocoAce – Interview Coach AI (Polish)
+  
+  Created by Rad on 06/11/2025.
+*/
+
+// Main View
+"app_title" = "TocoAce";
+"interviews_left" = "pozostało";
+"settings" = "Ustawienia";
+"configure_warning" = "Proszę skonfigurować ustawienia przed rozpoczęciem";
+"open_settings" = "Otwórz ustawienia";
+
+// Recording
+"start_recording" = "Rozpocznij nagrywanie";
+"stop_recording" = "Zatrzymaj nagrywanie";
+"recording" = "Nagrywanie";
+"live_transcription" = "Transkrypcja na żywo";
+"transcription_placeholder" = "Rozpocznij nagrywanie, aby zobaczyć transkrypcję...";
+
+// Answer Generation
+"generate_answer" = "Wygeneruj odpowiedź";
+"generated_answer" = "Wygenerowana odpowiedź";
+"answer_placeholder" = "Kliknij 'Wygeneruj odpowiedź', aby otrzymać wynik...";
+"generating" = "Generowanie odpowiedzi...";
+"copy" = "Kopiuj";
+"regenerate" = "Wygeneruj ponownie";
+"answer_copied" = "Odpowiedź skopiowana do schowka!";
+
+// Settings View
+"ai_engine" = "Silnik AI";
+"select_engine" = "Wybierz silnik";
+"anthropic_api_key" = "Klucz API Anthropic";
+"openai_api_key" = "Klucz API OpenAI";
+"answer_length" = "Długość odpowiedzi";
+"short" = "Krótka";
+"medium" = "Średnia";
+"long" = "Długa";
+
+// Job Details
+"job_details" = "Szczegóły oferty";
+"position_level" = "Poziom stanowiska";
+"junior" = "Junior";
+"middle" = "Middle";
+"senior" = "Senior";
+"position_title" = "Nazwa stanowiska";
+"position_title_placeholder" = "np., Senior iOS Developer";
+"company_name" = "Nazwa firmy";
+"company_placeholder" = "np., Apple Inc.";
+"job_description" = "Opis stanowiska";
+
+// Resume
+"resume" = "CV";
+"upload_resume" = "Prześlij CV";
+"replace_resume" = "Zamień CV";
+"characters" = "znaków";
+"resume_uploaded" = "CV przesłane pomyślnie!";
+"parse_error" = "Nie udało się przetworzyć dokumentu. Spróbuj innego pliku.";
+
+// Subscription
+"upgrade_plan" = "Ulepsz plan";
+"upgrade_subtitle" = "Uzyskaj więcej rozmów kwalifikacyjnych i osiągnij cele zawodowe";
+"current_plan" = "Aktualny plan";
+"interviews_remaining" = "Pozostałe rozmowy";
+"purchase" = "Kup";
+"restore_purchases" = "Przywróć zakupy";
+"purchases_restored" = "Zakupy przywrócone!";
+"purchase_success" = "Zakup udany! Dziękujemy!";
+"close" = "Zamknij";
+"loading_products" = "Ładowanie produktów...";
+
+// Errors
+"no_interviews" = "Nie masz już dostępnych rozmów. Ulepsz swój plan.";
+"permission_required" = "Proszę przyznać uprawnienia do mikrofonu i rozpoznawania mowy w Ustawieniach systemowych.";
+"api_key_not_configured" = "Klucz API nie jest skonfigurowany";
+"generation_failed" = "Nie udało się wygenerować odpowiedzi";
+
+// General
+"done" = "Gotowe";
+"ok" = "OK";
+"cancel" = "Anuluj";
+"success" = "Sukces";
+"error" = "Błąd";
+
+

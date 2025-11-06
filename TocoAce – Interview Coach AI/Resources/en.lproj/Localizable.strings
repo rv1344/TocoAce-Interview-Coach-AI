@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  TocoAce – Interview Coach AI (English)
+  
+  Created by Rad on 06/11/2025.
+*/
+
+// Main View
+"app_title" = "TocoAce";
+"interviews_left" = "left";
+"settings" = "Settings";
+"configure_warning" = "Please configure your settings before starting";
+"open_settings" = "Open Settings";
+
+// Recording
+"start_recording" = "Start Recording";
+"stop_recording" = "Stop Recording";
+"recording" = "Recording";
+"live_transcription" = "Live Transcription";
+"transcription_placeholder" = "Start recording to see transcription...";
+
+// Answer Generation
+"generate_answer" = "Generate Answer";
+"generated_answer" = "Generated Answer";
+"answer_placeholder" = "Click 'Generate Answer' to get a response...";
+"generating" = "Generating answer...";
+"copy" = "Copy";
+"regenerate" = "Regenerate";
+"answer_copied" = "Answer copied to clipboard!";
+
+// Settings View
+"ai_engine" = "AI Engine";
+"select_engine" = "Select Engine";
+"anthropic_api_key" = "Anthropic API Key";
+"openai_api_key" = "OpenAI API Key";
+"answer_length" = "Answer Length";
+"short" = "Short";
+"medium" = "Medium";
+"long" = "Long";
+
+// Job Details
+"job_details" = "Job Details";
+"position_level" = "Position Level";
+"junior" = "Junior";
+"middle" = "Middle";
+"senior" = "Senior";
+"position_title" = "Position Title";
+"position_title_placeholder" = "e.g., Senior iOS Developer";
+"company_name" = "Company Name";
+"company_placeholder" = "e.g., Apple Inc.";
+"job_description" = "Job Description";
+
+// Resume
+"resume" = "Resume";
+"upload_resume" = "Upload Resume";
+"replace_resume" = "Replace Resume";
+"characters" = "characters";
+"resume_uploaded" = "Resume uploaded successfully!";
+"parse_error" = "Failed to parse document. Please try a different file.";
+
+// Subscription
+"upgrade_plan" = "Upgrade Your Plan";
+"upgrade_subtitle" = "Get more interviews and ace your career goals";
+"current_plan" = "Current Plan";
+"interviews_remaining" = "Interviews Remaining";
+"purchase" = "Purchase";
+"restore_purchases" = "Restore Purchases";
+"purchases_restored" = "Purchases restored!";
+"purchase_success" = "Purchase successful! Thank you!";
+"close" = "Close";
+"loading_products" = "Loading products...";
+
+// Errors
+"no_interviews" = "You have no interviews remaining. Please upgrade your plan.";
+"permission_required" = "Please grant microphone and speech recognition permissions in System Settings.";
+"api_key_not_configured" = "API key not configured";
+"generation_failed" = "Failed to generate answer";
+
+// General
+"done" = "Done";
+"ok" = "OK";
+"cancel" = "Cancel";
+"success" = "Success";
+"error" = "Error";
+
+

@@ -1,0 +1,86 @@
+/* 
+  Localizable.strings
+  TocoAce – Interview Coach AI (Swedish)
+  
+  Created by Rad on 06/11/2025.
+*/
+
+// Main View
+"app_title" = "TocoAce";
+"interviews_left" = "kvar";
+"settings" = "Inställningar";
+"configure_warning" = "Konfigurera dina inställningar innan du börjar";
+"open_settings" = "Öppna inställningar";
+
+// Recording
+"start_recording" = "Starta inspelning";
+"stop_recording" = "Stoppa inspelning";
+"recording" = "Spelar in";
+"live_transcription" = "Live-transkribering";
+"transcription_placeholder" = "Starta inspelning för att se transkribering...";
+
+// Answer Generation
+"generate_answer" = "Generera svar";
+"generated_answer" = "Genererat svar";
+"answer_placeholder" = "Klicka 'Generera svar' för att få resultat...";
+"generating" = "Genererar svar...";
+"copy" = "Kopiera";
+"regenerate" = "Generera igen";
+"answer_copied" = "Svar kopierat till urklipp!";
+
+// Settings View
+"ai_engine" = "AI-motor";
+"select_engine" = "Välj motor";
+"anthropic_api_key" = "Anthropic API-nyckel";
+"openai_api_key" = "OpenAI API-nyckel";
+"answer_length" = "Svarslängd";
+"short" = "Kort";
+"medium" = "Medium";
+"long" = "Lång";
+
+// Job Details
+"job_details" = "Jobbdetaljer";
+"position_level" = "Positionsnivå";
+"junior" = "Junior";
+"middle" = "Middle";
+"senior" = "Senior";
+"position_title" = "Befattning";
+"position_title_placeholder" = "t.ex., Senior iOS-utvecklare";
+"company_name" = "Företagsnamn";
+"company_placeholder" = "t.ex., Apple Inc.";
+"job_description" = "Jobbbeskrivning";
+
+// Resume
+"resume" = "CV";
+"upload_resume" = "Ladda upp CV";
+"replace_resume" = "Ersätt CV";
+"characters" = "tecken";
+"resume_uploaded" = "CV uppladdad!";
+"parse_error" = "Kunde inte bearbeta dokumentet. Försök med en annan fil.";
+
+// Subscription
+"upgrade_plan" = "Uppgradera plan";
+"upgrade_subtitle" = "Få fler intervjuer och nå dina karriärmål";
+"current_plan" = "Nuvarande plan";
+"interviews_remaining" = "Intervjuer kvar";
+"purchase" = "Köp";
+"restore_purchases" = "Återställ köp";
+"purchases_restored" = "Köp återställda!";
+"purchase_success" = "Köp lyckades! Tack!";
+"close" = "Stäng";
+"loading_products" = "Laddar produkter...";
+
+// Errors
+"no_interviews" = "Du har inga intervjuer kvar. Uppgradera din plan.";
+"permission_required" = "Ge tillgång till mikrofon och taligenkänning i Systeminställningar.";
+"api_key_not_configured" = "API-nyckel inte konfigurerad";
+"generation_failed" = "Kunde inte generera svar";
+
+// General
+"done" = "Klar";
+"ok" = "OK";
+"cancel" = "Avbryt";
+"success" = "Lyckades";
+"error" = "Fel";
+
+

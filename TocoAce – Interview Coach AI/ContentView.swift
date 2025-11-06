@@ -7,15 +7,11 @@
 
 import SwiftUI
 
+// This file is kept for compatibility but MainView is now the main interface
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainView()
     }
 }
 

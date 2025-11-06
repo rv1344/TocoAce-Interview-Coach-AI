@@ -1,0 +1,121 @@
+# API Keys Configuration Guide
+
+## Getting Your API Keys
+
+### Anthropic Claude API Key
+
+1. Go to https://console.anthropic.com/
+2. Sign up or log in to your account
+3. Navigate to "API Keys" section
+4. Click "Create Key"
+5. Copy your key (starts with "sk-ant-...")
+6. Paste it into TocoAce Settings > Anthropic API Key field
+
+**Pricing**: Pay as you go
+- Claude 3.5 Sonnet: ~$3 per million input tokens, ~$15 per million output tokens
+- Typical interview answer: ~$0.01-0.05 per generation
+
+### OpenAI API Key
+
+1. Go to https://platform.openai.com/
+2. Sign up or log in
+3. Navigate to "API Keys" in your account settings
+4. Click "Create new secret key"
+5. Copy your key (starts with "sk-...")
+6. Paste it into TocoAce Settings > OpenAI API Key field
+
+**Pricing**: Pay as you go
+- GPT-4o: ~$5 per million input tokens, ~$15 per million output tokens
+- GPT-4 Turbo: ~$10 per million input tokens, ~$30 per million output tokens
+- Typical interview answer: ~$0.02-0.10 per generation
+
+## Security Best Practices
+
+⚠️ **IMPORTANT**: Never share your API keys with anyone!
+
+- API keys are stored locally on your Mac using UserDefaults
+- Keys are never sent to TocoAce servers (we don't have any!)
+- Keys are only used to make direct API calls to Anthropic/OpenAI
+- Keep your keys secure and rotate them regularly
+
+## Billing & Usage Limits
+
+### Anthropic
+- Set up billing at https://console.anthropic.com/settings/billing
+- Monitor usage in the console
+- Set spending limits to avoid unexpected charges
+
+### OpenAI
+- Add payment method at https://platform.openai.com/account/billing
+- View usage at https://platform.openai.com/usage
+- Set usage limits in account settings
+
+## Recommended Starting Credits
+
+For testing and initial use:
+- **Light usage** (1-5 interviews): $5-10
+- **Medium usage** (10-20 interviews): $20-30
+- **Heavy usage** (50+ interviews): $50+
+
+## API Key Format Examples
+
+```
+# Anthropic Claude
+sk-ant-api03-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# OpenAI
+sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+## Troubleshooting
+
+### "API key not configured" error
+- Make sure you've entered the key in Settings
+- Check that the key starts with the correct prefix
+- Verify there are no extra spaces
+
+### "Authentication failed" error
+- Key may be invalid or expired
+- Regenerate your key in the respective console
+- Check your account has active billing
+
+### "Rate limit exceeded" error
+- You've made too many requests too quickly
+- Wait a few minutes and try again
+- Consider upgrading your API plan
+
+### "Insufficient credits" error
+- Add more credits/payment method to your account
+- Check your billing status in the console
+
+## Multiple API Keys (Advanced)
+
+You can have both Anthropic and OpenAI keys configured:
+- Switch between engines in Settings
+- This gives you flexibility and redundancy
+- Useful if one service is down or rate-limited
+
+## Cost Estimation
+
+Typical TocoAce usage:
+- Resume analysis: ~500-2000 tokens (input)
+- Job description: ~200-1000 tokens (input)
+- Question transcription: ~50-200 tokens (input)
+- Generated answer: ~50-200 tokens (output)
+
+**Total per answer**: ~800-3400 tokens mixed
+
+With Claude 3.5 Sonnet:
+- Cost per answer: ~$0.01-0.05
+- 20 interviews × 10 questions each = 200 answers
+- Total cost: ~$2-10 for 20 interviews
+
+Much cheaper than the $7.99 per interview in-app purchase! 🎯
+
+---
+
+**Note**: API costs are separate from TocoAce subscription fees. You pay:
+1. TocoAce: For the app access (free trial, per-interview, or subscription)
+2. Anthropic/OpenAI: For the AI API usage (pay-as-you-go based on actual usage)
+
+
